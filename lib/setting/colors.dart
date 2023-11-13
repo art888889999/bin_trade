@@ -1,0 +1,20 @@
+import 'package:flutter/material.dart';
+
+const Color menuIconsColor = Color(0xFF7A7A7A);
+const Color menuItemBackgroundColor = Color(0xFF252525);
+const Color menuUserNotFoundColor = Color(0xFF3A3C3F);
+const Color splashBackgroundColor = Color(0xFF080809);
+const Color loaderBackgroundColor = Color(0xFF3A3C3F);
+const Color loaderColor = Color(0xFFF8D000);
+const Color containerColor = Color(0xFFF8D000);
+const Color scaffoldBackgroundColor = Color(0xFF080809);
+const Color fontColorLittle = Color(0xFFFFFFFF);
+const Color disactiveIndicator = Color(0xFF3A3C3F);
+const Color telegaButton = Color(0xFF00AEED);
+const Color menuButtonColor = Color(0xFFF8D000);
+const Color appBarColor = Color(0xFF3A3C3F);
+const Color textFieldColor = Color(0xFF3A3C3F);
+const Color simulatorButtonColor = Color(0xFF1B1B1B);
+const Color simulatorBackgroundColor = Color(0xFF3A3C3F);
+const Color simulatorRedButtonColor = Color(0xFFCB3131);
+const Color simulatorGreenButtonColor = Color(0xFF2FBB2F);

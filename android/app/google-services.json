@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "275641315360",
+    "project_id": "bin-trade-18b34",
+    "storage_bucket": "bin-trade-18b34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275641315360:android:ef30823f17eb9fee1acc45",
+        "android_client_info": {
+          "package_name": "com.example.bin_trade"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfMqkZQXFRI2q5rxYeikVpW8vxX5Y9Erg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
