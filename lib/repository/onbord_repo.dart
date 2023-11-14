@@ -21,7 +21,7 @@ class OnbordRepo {
 
   Future<void> isFinanseMode() async {
     final firstShowF = (await prefs).getBool(fs) ?? true;
-    if (firstShowF) {
+    if (!firstShowF) {
       isFinanse = true;
     } else {
       final x = await MyDio.getKey();

@@ -2,6 +2,7 @@ import 'package:bin_trade/bloc/home/home_bloc.dart';
 import 'package:bin_trade/setting/colors.dart';
 import 'package:bin_trade/setting/navigation/nav_manager.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -11,6 +12,9 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  await SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+  ]);
   final navi = MyNavigatorManager.instance;
   final bloc = HomeBloc()
     ..add(const GetCurrentChartsEvent(value: 'EURUSD'))
